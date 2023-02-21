@@ -9967,3 +9967,13 @@ form#contact #map iframe {
   position: relative;
   z-index: 2;
 }
+
+.map__container {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .map__container {
+    width: 55%;
+  }
+}
